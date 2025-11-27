@@ -25,4 +25,4 @@ with open('visit_log.csv', 'r', encoding='utf-8') as f_read, \
             category = purchases[user_id]
             f_write.write(f"{line},{category}\n")
 
-print("Готово! Программа завершена. Проверьте файл funnel.csv")
+print("Задание выполнено успешно.")
